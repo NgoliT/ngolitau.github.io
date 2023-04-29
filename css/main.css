@@ -1,0 +1,452 @@
+
+/* version second part............................ */
+.version-one {
+  background-color: var(--six);
+  color: var(--sev);
+  display: flex;
+  justify-content: center;
+
+}
+.version-cont {
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.version-cont p {
+  font-size: 14px;
+  padding: 1em 1.5em;
+}
+
+/* somediv third part............................. */
+.somediv {
+  background-color: #2c2c32;
+  color: var(--first);
+  padding-top: 1.8em;
+}
+.div-a {
+  margin-bottom: 2.8em;
+  text-align: center;
+}
+.div-a p:nth-child(1) {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+.div-a p:nth-child(2) {
+  font-size: 43px;
+  display: block;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.div-a p:nth-child(3) {
+  color: var(--sev)
+}
+.d-windows {
+  display: flex;
+  justify-content: center;
+  column-gap: 3px;
+  margin-top: 1.5em;
+}
+.p-div {
+  background-color: var(--second);
+  width: 270px;
+}
+.p-div p:nth-child(1) {
+ font-size: 16px;
+ font-weight: 500;
+ padding-top: 10px;
+ margin-bottom: 2px;
+}
+.p-div p:nth-child(2) {
+ font-size: 13px;
+ padding-bottom: 10px;
+ font-weight: 100;
+}
+.down-arrow-div {
+  background-color: var(--second);
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rotate-div {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: var(--first);
+  transform: rotate(45deg);
+}
+.rotate-di {
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--second);
+}
+.div-a p:nth-child(5) {
+  margin-top: 1.3em;
+  margin-bottom: 1em;
+  background-color: var(--six);
+  padding: .8em 5.2em;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.div-a p span,
+.div-a p:nth-child(6) {
+  color: var(--sev);
+}
+.div-a p:nth-child(6) {
+
+  display: block;
+  font-size: 12px;
+}
+.linkyy {
+  font-size: 12px;
+}
+.div-b {
+  position: relative;
+  display: flex;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.div-b img {
+  flex: 1;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.overlay {
+  position: absolute;
+  ackground-color: rgb(34, 34, 34,0.8);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+/* grid fourth part............................. */
+.grid-four {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  padding-right: 1em;
+  margin-top: 0px;
+}
+.grids {
+  display: flex;
+  flex-direction: column;
+  width: 1fr;
+  height: 120px;
+  margin-left: 1em;
+  justify-content: center;
+  align-items: center;
+}
+.grids:hover {
+  background-color: rgb(228, 228, 228);
+}
+.grid-a {
+  idth: 200px;
+}
+.grid-b {
+  idth: 200px;
+}
+
+/* twitter fifth part............................. */
+.twitter {
+  background-color: var(--ten);
+}
+.twiter {
+  position: relative;
+  padding-top: 5em;
+  padding-bottom: 4em;
+}
+.le {
+  position: absolute;
+  top: 40%;
+}
+.le img {
+  height: 40px;
+}
+.leri {
+  right: 0;
+  margin-right: 10px;
+}
+.rile {
+  transform: rotate(180deg);
+  margin-left: 10px;
+}
+.twi {
+  display: flex;
+  column-gap: .5em;
+  padding: 1em 3em;
+}
+.twi img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 35px;
+  box-shadow: 1px 1px 2px gray;
+}
+.name p:nth-child(1) {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.name p:nth-child(2) {
+  font-size: 11px;
+  color: var(--fourth);
+}
+.name p:nth-child(3) {
+  font-size: 15px;
+  color: var(--eig);
+}
+.name p:nth-child(3) span {
+  color: var(--third);
+}
+
+/* picha maelekezo sixth part............................. */
+.picha-maelekezo {
+  text-align: center;
+}
+.picha-container {
+  padding: var(--unit) 1.5em;
+  
+}
+.picha-container .huvar {
+  width: 260px;
+  height: 180px;
+  margin: auto;
+}
+.picha-container img {
+  height: 170px;
+  
+}
+.picha-container .huvar .huva {
+  height: 85%;
+  width: 90%;
+  cursor: pointer;
+  transition: all .25s;
+}
+.picha-container .huvar .huva:hover {
+  height: 87%;
+  width: 92%;
+  
+}
+.picha-container-two {
+  background-color: rgba(231, 227, 216, 0.859);
+}
+
+.flexdiv {
+  text-align: left;
+  color: var(--eig);
+  line-height: 2.2em;
+  font-size: 14px;
+  font-weight: 500;
+}
+.flexdiv p:nth-child(1) {
+  margin-bottom: 1.2em;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+/* code for seventh part............................. */
+.code-for {
+  background-color: var(--ten);
+  text-align: center;
+  color: var(--eig);
+  padding-top: var(--unit);
+  padding-bottom: var(--unit);
+}
+.vcodee {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+.grid-container {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  
+  font-size: 13px;
+  font-weight: 500;
+}
+.grid-lang {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.gridz {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.more {
+  margin-bottom: var(--unit);
+}
+.bata {
+  background-color: var(--second);
+  border: none;
+  color: var(--nine);
+  padding: .9em 1.8em;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 17px;
+  box-shadow: 2px 2px 2px rgb(172, 203, 248);
+}
+
+/* maine eighth part............................. */
+.maine {
+  text-align: center;
+}
+.top {
+  margin-top: var(--unit);
+  margin-bottom: 6em;
+
+}
+.top p:nth-child(1) {
+  font-size: 1.5em;
+  margin-bottom: .3em;
+  font-weight: 100;
+  color: var(--fourth);
+}
+.top p:nth-child(2) {
+  font-weight: 300;
+  color: var(--fourth);
+}
+
+.middle {
+  padding-bottom: 3em;
+}
+.windowss,
+.linux,
+.apple {
+  text-align: center;
+  width: 300px;
+  margin: 5em auto;
+  ackground-color: var(--fourth);
+}
+.windowss .logo {
+  text-align: center;
+}
+.logo {
+  margin-bottom: .8em;
+}
+.logo img {
+  height: 100px;
+}
+
+.download-version {
+  margin: 1em auto;
+  text-align: center;
+  width: 250px;
+  color: var(--first);
+  background-color: var(--second);
+}
+.download-box {
+  padding-top: .5em;
+  padding-bottom: .6em;
+}
+.download-box img {
+  height: 25px;
+}
+.download-box p:nth-child(2) {
+  font-weight: 600;
+  vertical-align: top;
+  margin-left: 1em;
+  margin-bottom: .3em;
+}
+.download-box p:nth-child(3) {
+  display: block; 
+  font-size: 11px;
+}
+
+.installers {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+strong {
+  display: block;
+  color: var(--fourth);
+  font-size: 13px;
+
+}
+
+.yaright {
+  display: grid;
+  grid-template-columns: repeat(2, 35px) 1fr;
+  color: var(--first);
+  font-size: 12px;
+  gap: 4px;
+}
+.bits {
+  background-color: var(--second);
+  border-radius: 2px;
+
+  padding: 1px;
+}
+
+/* linux */
+.snap {
+  color: var(--first);
+  background-color: var(--second);
+  margin-top: 1em;
+  font-size: 12px;
+  padding: 0px 5px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+/* apple */
+.apple {
+  margin-bottom: 5px;
+}
+.yalefty {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.yalefty .bits {
+  color: var(--first);
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* policy nineth part............................. */
+.policy {
+  background-color: var(--ten);
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 4.5em;
+}
+.statement,
+.h4 {
+  width: 58%;
+  margin: auto;
+  color: var(--eig);
+  font-weight: 500;
+  font-size: 12px;
+}
+.statement p {
+  line-height: 3em;
+}
+.statement p:nth-child(1) {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--fourth);
+  line-height: normal;
+  display: block;
+}
+.statement p:nth-child(2) {
+  font-size: 15px;
+  margin-bottom: 1em;
+}
+h4 {
+  font-size: 11px;
+  margin-top: 3em;
+  margin-bottom: 4px;
+}
+

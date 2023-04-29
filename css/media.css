@@ -1,0 +1,182 @@
+
+
+@media (max-width: 700px) {
+  .search-download {
+    display: none;
+  }
+  .self {
+    background-color: var(--second);
+    display: block;
+    margin-right: -9em;
+    padding-right: 5px;
+    border-radius: 70px;
+    }
+
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media  (min-width: 900px) {
+  .right {
+    argin-right: 3.5em;
+  }
+
+  .right img {
+    display: none;
+  }
+
+}
+
+@media  (min-width: 990px) {
+  .container {
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+  }
+  .search-download {
+    margin-right: -10px;
+  }
+  
+  .somediv {
+   display: flex;
+   column-gap: 3em;
+   justify-content: center;
+   padding-left: 3.5em;
+   padding-right: 3.5em;
+  }
+  .div-b {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .grid-four {
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 4em;
+    padding-left: 4em;
+  }
+  
+  .twiter {
+    display: flex;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .twi {
+    padding: 1em .9em;
+  }
+  .name p:nth-child(1) {
+    display: inline-block;
+  }
+  .name p:nth-child(2) {
+    display: inline-block;
+  }
+  .name p:nth-child(3) {
+    font-size: 18px;
+  }
+
+  .leri {
+    right: -5;
+    margin-right: -20px;
+  }
+  .rile {
+    transform: rotate(180deg);
+    margin-left: -20px;
+  }
+
+  /* picha maelekezo............... */
+  .picha-container {
+    display: flex;
+    column-gap: 7em;
+    justify-content: center;
+  }
+  .picha-container-two .picha-container {
+    flex-direction: row-reverse;
+  }
+  .picha-container img {
+    height: 200px;
+  }
+  .picha-container .huvar {
+    width: 310px;
+    height: 200px;
+    margin: 0px;
+  }
+  .picha-container .huvar .huva {
+    height: 95%;
+    width: 97%;
+    transition: all .30s ease-in;
+  }
+  .picha-container .huvar .huva:hover {
+    height: 92%;
+    width: 95%;
+    
+  }
+  .flexdiv {
+    max-width: 600px;
+  }
+  .flexdiv p:nth-child(1) {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .flexdiv p:nth-child(2) {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .grid-container {
+    
+    font-size: 16px;
+  }
+
+  .grid-lang {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .windowss,
+  .linux,
+  .apple {
+  margin: 0px;
+  }
+
+  .statement {
+  width: 50%;
+  font-size: 12.5px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 5em 1em 5em;
+  }
+  .juu {
+    padding-top: 0px;
+    margin-bottom: 2em;
+    margin-left: 0em;
+  }
+  .chini {
+    
+  }
+
+  .siato {
+    display: block;
+    
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .grid-lang {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

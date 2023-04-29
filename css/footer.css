@@ -1,0 +1,84 @@
+
+
+/* footer tenth part............................. */
+footer {
+  background-color: var(--five);
+  color: var(--eig);
+  font-size: 12px;
+  font-weight: 500;
+}
+.juu {
+  display: flex;
+  align-items: center;
+  padding-top: 3em;
+  margin-left: 5em;
+  margin-bottom: 2em;
+}
+.siato {
+  margin-right: 15px;
+  display: none;
+}
+.kushoto {
+  margin-right: 2em;
+
+}
+
+.kulia {
+  display: flex;
+  align-items: center;
+}
+.namba {
+  background-color: var(--first);
+  color: var(--fourth);
+  margin-left: 7px;
+  padding: 3px 7px;
+  border-radius: 4px;
+  position: relative;
+}
+.pointer-div {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: var(--first);
+  top: 40%;
+  left: -3px;
+  transform: rotate(45deg);
+
+}
+
+.star-icon {
+  display: flex;
+  background-color: var(--first);
+  color: var(--fourth);
+  align-items: center;
+  border-radius: 3px;
+  padding: 0px 3px;
+}
+
+.star-icon img {
+  height: 20px;
+  margin: 1px;
+}
+.star-icon p {
+  padding-right: 3px;
+}
+.chini {
+  display: flex;
+  column-gap: 3em;
+}
+
+.chini ul {
+  display: flex; column-gap: 15px;
+  margin-left: 1.9em;
+}
+.chini ul li a {
+  color: var(--eig);
+}
+
+.microsoft img {
+  height: 20px;
+}
+.microsoft p:nth-child(3) {
+  display: block;
+}
+

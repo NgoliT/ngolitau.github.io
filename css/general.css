@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--third);
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  padding-top: 3em;
+
+  font-family: 'Segoe UI', Helvetica;
+}
+:root {
+  --first: #fff;
+  --second: #0066b8;
+  --third: #0098ff;
+  --fourth: #444;
+  --five: rgb(32, 32, 32);
+  --six: #25252b;
+  --sev: rgb(202, 199, 199);
+  --eig: rgb(121, 121, 121);
+  --nine: #f7f7f7;
+  --ten: rgba(241, 241, 241, 0.859);
+
+  --unit: 3em;
+}
+p {
+  display: inline-block;
+}
